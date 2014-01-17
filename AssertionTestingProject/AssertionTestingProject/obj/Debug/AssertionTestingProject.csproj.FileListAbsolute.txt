@@ -1,0 +1,4 @@
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\bin\Debug\AssertionTestingProject.dll
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\bin\Debug\AssertionTestingProject.pdb
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\obj\Debug\AssertionTestingProject.dll
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\obj\Debug\AssertionTestingProject.pdb

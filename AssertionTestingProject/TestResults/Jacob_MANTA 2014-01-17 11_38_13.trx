@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="24e59ba2-9aa0-495d-a79a-533bc09614d2" name="Jacob@MANTA 2014-01-17 11:38:13" runUser="MANTA\Jacob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="57ab9ee7-c8ea-4957-ac8f-e61444df60b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Jacob_MANTA 2014-01-17 11_38_13">
+      <DeploymentItem filename="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\bin\Debug\AssertionTestingProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-17T11:38:13.0608575-06:00" queuing="2014-01-17T11:38:28.8152877-06:00" start="2014-01-17T11:38:28.8192893-06:00" finish="2014-01-17T11:38:28.9503820-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestStringAssertStartsWith" storage="c:\users\jacob\documents\visual studio 2010\projects\assertiontestingproject\assertiontestspec\bin\debug\assertiontestspec.dll" id="2a9c6bf3-e5a6-4c58-0e60-e189fc11345e">
+      <Execution id="3ee09065-8cb9-4f35-a67e-3b9707e8ea9c" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/AssertionTestingProject/AssertionTestSpec/bin/Debug/AssertionTestSpec.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssertionTestSpec.AssertionTestClassTest, AssertionTestSpec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStringAssertStartsWith" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2a9c6bf3-e5a6-4c58-0e60-e189fc11345e" executionId="3ee09065-8cb9-4f35-a67e-3b9707e8ea9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3ee09065-8cb9-4f35-a67e-3b9707e8ea9c" testId="2a9c6bf3-e5a6-4c58-0e60-e189fc11345e" testName="TestStringAssertStartsWith" computerName="MANTA" duration="00:00:00.0100861" startTime="2014-01-17T11:38:28.8202895-06:00" endTime="2014-01-17T11:38:28.9393738-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ee09065-8cb9-4f35-a67e-3b9707e8ea9c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

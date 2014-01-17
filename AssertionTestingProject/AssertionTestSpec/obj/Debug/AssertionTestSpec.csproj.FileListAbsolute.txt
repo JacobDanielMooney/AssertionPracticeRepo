@@ -1,0 +1,7 @@
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\bin\Debug\AssertionTestSpec.dll
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\bin\Debug\AssertionTestSpec.pdb
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\bin\Debug\AssertionTestingProject.dll
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\bin\Debug\AssertionTestingProject.pdb
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\obj\Debug\AssertionTestSpec.csprojResolveAssemblyReference.cache
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\obj\Debug\AssertionTestSpec.dll
+c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\obj\Debug\AssertionTestSpec.pdb

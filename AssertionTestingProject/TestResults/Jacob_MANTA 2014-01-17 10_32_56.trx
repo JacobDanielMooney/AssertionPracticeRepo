@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13bc372a-9bdd-4d5e-aa6a-ab28f59d9e2d" name="Jacob@MANTA 2014-01-17 10:32:56" runUser="MANTA\Jacob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="57ab9ee7-c8ea-4957-ac8f-e61444df60b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Jacob_MANTA 2014-01-17 10_32_56">
+      <DeploymentItem filename="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\bin\Debug\AssertionTestingProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-17T10:32:56.3737238-06:00" queuing="2014-01-17T10:32:56.3767131-06:00" start="2014-01-17T10:32:56.3797156-06:00" finish="2014-01-17T10:32:56.5138113-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAssertIsInstanceOfType" storage="c:\users\jacob\documents\visual studio 2010\projects\assertiontestingproject\assertiontestspec\bin\debug\assertiontestspec.dll" id="080230a3-d758-4c1e-7116-224c3dfcb23a">
+      <Execution id="7fc90c7d-8515-4156-9bac-91c26467bdc9" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/AssertionTestingProject/AssertionTestSpec/bin/Debug/AssertionTestSpec.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssertionTestSpec.AssertionTestClassTest, AssertionTestSpec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAssertIsInstanceOfType" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="080230a3-d758-4c1e-7116-224c3dfcb23a" executionId="7fc90c7d-8515-4156-9bac-91c26467bdc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7fc90c7d-8515-4156-9bac-91c26467bdc9" testId="080230a3-d758-4c1e-7116-224c3dfcb23a" testName="TestAssertIsInstanceOfType" computerName="MANTA" duration="00:00:00.0193512" startTime="2014-01-17T10:32:56.3817162-06:00" endTime="2014-01-17T10:32:56.5068175-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fc90c7d-8515-4156-9bac-91c26467bdc9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsInstanceOfType failed.  Expected type:&lt;System.String&gt;. Actual type:&lt;AssertionTestingProject.AssertionTestClass&gt;.</Message>
+          <StackTrace>   at AssertionTestSpec.AssertionTestClassTest.TestAssertIsInstanceOfType() in c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\AssertionTestClassTest.cs:line 89
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

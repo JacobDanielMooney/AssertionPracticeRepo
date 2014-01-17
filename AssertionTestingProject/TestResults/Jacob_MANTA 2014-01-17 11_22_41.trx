@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6421cd4a-b6b1-483d-a2d0-6e38a91fec7f" name="Jacob@MANTA 2014-01-17 11:22:41" runUser="MANTA\Jacob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="57ab9ee7-c8ea-4957-ac8f-e61444df60b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jacob_MANTA 2014-01-17 11_22_41">
+      <DeploymentItem filename="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\bin\Debug\AssertionTestingProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-17T11:22:41.4849259-06:00" queuing="2014-01-17T11:22:41.4929285-06:00" start="2014-01-17T11:22:41.4969211-06:00" finish="2014-01-17T11:22:41.6420246-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCollectionAssertAllItemsAreEquivalent" storage="c:\users\jacob\documents\visual studio 2010\projects\assertiontestingproject\assertiontestspec\bin\debug\assertiontestspec.dll" id="d49b5c40-3fbe-d8d5-c5d7-7519845b1534">
+      <Execution id="cefd6bad-3f78-4d47-a80c-c7bfa9bac6ce" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/AssertionTestingProject/AssertionTestSpec/bin/Debug/AssertionTestSpec.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssertionTestSpec.AssertionTestClassTest, AssertionTestSpec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCollectionAssertAllItemsAreEquivalent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d49b5c40-3fbe-d8d5-c5d7-7519845b1534" executionId="cefd6bad-3f78-4d47-a80c-c7bfa9bac6ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cefd6bad-3f78-4d47-a80c-c7bfa9bac6ce" testId="d49b5c40-3fbe-d8d5-c5d7-7519845b1534" testName="TestCollectionAssertAllItemsAreEquivalent" computerName="MANTA" duration="00:00:00.0112511" startTime="2014-01-17T11:22:41.4979222-06:00" endTime="2014-01-17T11:22:41.6170060-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cefd6bad-3f78-4d47-a80c-c7bfa9bac6ce">
+    </UnitTestResult>
+  </Results>
+</TestRun>

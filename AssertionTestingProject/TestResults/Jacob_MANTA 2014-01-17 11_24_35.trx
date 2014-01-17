@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ce25471e-a164-4f35-b4ae-0a683a8c80fb" name="Jacob@MANTA 2014-01-17 11:24:35" runUser="MANTA\Jacob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="57ab9ee7-c8ea-4957-ac8f-e61444df60b2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Jacob_MANTA 2014-01-17 11_24_35">
+      <DeploymentItem filename="c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestingProject\bin\Debug\AssertionTestingProject.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-17T11:24:35.6569792-06:00" queuing="2014-01-17T11:24:35.6599817-06:00" start="2014-01-17T11:24:35.6619836-06:00" finish="2014-01-17T11:24:35.7980798-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCollectionAssertContains" storage="c:\users\jacob\documents\visual studio 2010\projects\assertiontestingproject\assertiontestspec\bin\debug\assertiontestspec.dll" id="99c0b9e7-4bb8-6603-7df5-da47c8e5ef71">
+      <Execution id="693d0464-0e45-4788-90b3-b68ee6989aed" />
+      <TestMethod codeBase="c:/users/jacob/documents/visual studio 2010/Projects/AssertionTestingProject/AssertionTestSpec/bin/Debug/AssertionTestSpec.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AssertionTestSpec.AssertionTestClassTest, AssertionTestSpec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCollectionAssertContains" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="99c0b9e7-4bb8-6603-7df5-da47c8e5ef71" executionId="693d0464-0e45-4788-90b3-b68ee6989aed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="693d0464-0e45-4788-90b3-b68ee6989aed" testId="99c0b9e7-4bb8-6603-7df5-da47c8e5ef71" testName="TestCollectionAssertContains" computerName="MANTA" duration="00:00:00.0199465" startTime="2014-01-17T11:24:35.6639846-06:00" endTime="2014-01-17T11:24:35.7910745-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="693d0464-0e45-4788-90b3-b68ee6989aed">
+      <Output>
+        <ErrorInfo>
+          <Message>CollectionAssert.Contains failed. </Message>
+          <StackTrace>   at AssertionTestSpec.AssertionTestClassTest.TestCollectionAssertContains() in c:\users\jacob\documents\visual studio 2010\Projects\AssertionTestingProject\AssertionTestSpec\AssertionTestClassTest.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
